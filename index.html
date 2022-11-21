@@ -161,7 +161,7 @@
 				About Us
 			</h1>
 			<div class="row about_us_section">
-				<div class="col-md-6">
+				<div class="col-md-6 col-xs-12">
 					<p class="funbusi_para wow fadeInLeftBig animated" data-wow-duration="2s">
 						The principle of FUNBUSI is to make your business easy with our professional services.
 						Having practiced expertise and considerable experience in serving hospitality and retail
@@ -174,7 +174,7 @@
 						Eliminating all your worries, FUNBUSI let you have fun with your business.
 					</p>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-xs-12">
 					<img alt="Bootstrap Image Preview" src="./images/about-us-img.jpg"
 						class="about_us_image wow fadeInRightBig animated" data-wow-duration="2s">
 				</div>
@@ -190,24 +190,29 @@
 			</h1>
 			<div class="row">
 				<div class="col-md-12">
-					<form class="funbusi_contact" action="">
+					<form class="funbusi_contact" action="https://formsubmit.co/60cb4eac66d0c985c3d9544ab92b9672" method="POST">
+						<!--使用formsubmit.co平台发送邮件给公司邮箱-->
+						<input type="hidden" name="_next" value="http://3.24.74.93:3000/thanks">
+						<input type="hidden" name="_subject" value="New customer query">
 						<div class="mb-3 wow flipInX animated" data-wow-delay="0.3s">
 							<label for="fullName" class="form-label">Full Name<span style="color: red;">*</span></label>
-							<input type="text" class="form-control" id="" placeholder="Please input your full name">
+							<input type="text" class="form-control" name="name" placeholder="Please input your full name"
+								required>
 						</div>
 						<div class="mb-3 wow flipInX animated" data-wow-delay="0.6s">
 							<label for="email" class="form-label">Email address<span
 									style="color: red;">*</span></label>
-							<input type="email" class="form-control" id="" placeholder="Please input your email">
+							<input type="email" name="email" class="form-control" id=""
+								placeholder="Please input your email" required>
 						</div>
 						<div class="mb-3 wow flipInX animated" data-wow-delay="0.9s">
 							<label for="phoneNumber" class="form-label">Phone Number</label>
-							<input type="tel" class="form-control" id="" placeholder="Please input your phone number">
+							<input type="tel" class="form-control" name="phone" placeholder="Please input your phone number">
 						</div>
 						<div class="mb-3 wow flipInX animated" data-wow-delay="1.2s">
 							<label for="messages" class="form-label">Messages<span style="color: red;">*</span></label>
-							<textarea class="form-control" id="" rows="5"
-								placeholder="Tell us how can we help?"></textarea>
+							<textarea class="form-control" name="message" rows="5" placeholder="Tell us how can we help?"
+								required></textarea>
 						</div>
 						<button type="submit" class="btn submit_btn wow fadeIn animated"
 							data-wow-delay="1.5s">Send</button>

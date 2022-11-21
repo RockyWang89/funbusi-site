@@ -24,10 +24,6 @@ p, a, h1, h2, h3, h4, h5, h6 {
 }
 
 .funbusi_header {
-  /* position: fixed;
-  top: 0px;
-  width: 100%;
-  z-index: 900; */
   margin: 0;
   padding: 0;
 }
@@ -217,7 +213,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
 
 .about_us_image {
   width: 100%;
-  margin: 0 auto;
+  margin: 10px auto 0;
   display: block;
   position: relative;
 }
@@ -406,7 +402,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
 
   .banner-text-info {
     margin: 25vh 0 0 18vw;
-    width: 28%;
+    width: 45%;
   }
 
   .banner-text-info h1 {
