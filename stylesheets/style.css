@@ -1,0 +1,452 @@
+html,body,div,section,article,nav,p,ul,li,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html,body,div,section,article,nav {
+  font-size: 14px;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+  color: #595757;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0em;
+  vertical-align: middle;
+  content: "";
+  border-top: 0em solid;
+  border-right: 0em solid transparent;
+  border-left: 0.3em solid transparent;
+}
+
+.funbusi_header {
+  /* position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 900; */
+  margin: 0;
+  padding: 0;
+}
+
+.funbusi_header .col-md-6 {
+  width: 50%;
+}
+
+.funbusi_header .col-md-6:last-child {
+  position: fixed;
+  z-index: 900;
+  right: 0;
+}
+
+.funbusi_header img {
+  display: block;
+  position: absolute;
+  z-index: 999;
+  width: 216px;
+  height: 50px;
+  margin: 15px 10px;
+  animation-name: logo-fade-in;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  -webkit-animation-name: logo-fade-in;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  -o-animation-name: logo-fade-in;
+  -o-animation-duration: 1s;
+  -o-animation-iteration-count: 1;
+  -o-animation-timing-function: ease-in;
+  -moz-animation-name: logo-fade-in;
+  -moz-animation-duration: 1s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation-name: logo-fade-in;
+  -ms-animation-duration: 1s;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease-in;
+}
+
+@keyframes logo-fade-in {
+  0% {
+    -webkit-transform: translateY(7px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes logo-fade-in {
+  0% {
+    -webkit-transform: translateY(7px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes logo-fade-in {
+  0% {
+    -webkit-transform: translateY(7px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@-o-keyframes logo-fade-in {
+  0% {
+    -webkit-transform: translateY(7px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes logo-fade-in {
+  0% {
+    -webkit-transform: translateY(7px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.funbusi_nav {
+  float: right;
+  margin: 1vh;
+}
+
+.funbusi_nav_btn {
+  display: none;
+}
+
+.funbusi_nav_btn a {
+  color: #fcab2f;
+  font-size: 1.3em;
+  display: block;
+  position: relative;
+}
+
+.funbusi_nav_btn a:hover{
+  color: white;
+  background-color: #fcab2f;
+}
+
+.funbusi_menu_drop {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  display: block;
+  margin-top: 0.6em;
+}
+
+.funbusi_para {
+  text-align: justify;
+  font-size: 1.3em;
+  position: relative;
+}
+
+.funbusi_banner {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background-image: url('../images/banner.jpg');
+  background-position: 50% 50%;
+  position: relative;
+}
+
+.callbacks {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.callbacks li {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.banner-text-info {
+  margin: 15vh 0 0 8vw;
+  width: 70%;
+}
+
+.banner-text-info h1 {
+  font-size: 4em;
+  word-spacing: 0.3em;
+  text-align: left;
+  line-height: 1.4em;
+  color: #fcab2f;
+}
+
+#funbusi_slider {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  margin: 0 auto;
+}
+
+.funbusi_subtitle {
+  line-height: 2.5em;
+  width: 80%;
+  margin: 2.7% auto 5%;
+  border-bottom-width: 4px;
+  border-bottom-color: rgb(177, 175, 175);
+  border-bottom-style: double;
+  position: relative;
+}
+
+.about_us_image {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.about_us_section {
+  padding-right: 5.5%;
+  padding-left: 5.5%;
+  margin-bottom: 22vh;
+}
+
+.funbusi_card_container {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.funbusi_card_container svg {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 125px);
+  z-index: 900;
+  pointer-events: none;
+}
+
+.funbusi_card_container svg circle {
+  cx: 125px;
+  cy: 125px;
+  r: 121px;
+  stroke: orange;
+  stroke-width: 4px;
+  fill: none;
+  -webkit-animation-name: draw-circle;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-transform-origin: center;
+  -webkit-transform: rotate(-90deg);
+  -webkit-transform-origin: center;
+}
+
+@-webkit-keyframes draw-circle{
+  0% {
+      stroke-dasharray: 0, 10000;
+  }
+  100% {
+      stroke-dasharray: 786, 10000;
+  }
+}
+
+.funbusi_card_container p {
+  text-align: center;
+  width: 100%;
+  padding: 28px 35px;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+.funbusi_card {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #fffabc;
+  border: none;
+  position: relative;
+}
+
+.funbusi_card h3 {
+  margin: auto auto;
+  text-align: center;
+}
+
+.funbusi_card:hover h3 {
+  font-size: 2.2em;
+  animation-name: swing;  /*Invoke the animation in animate.css*/
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  -webkit-animation-name: swing;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation-name: swing;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease-in;
+  -o-animation-name: swing;
+  -o-animation-duration: 0.5s;
+  -o-animation-iteration-count: 1;
+  -o-animation-timing-function: ease-in;
+  -ms-animation-name: swing;
+  -ms-animation-duration: 0.5s;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease-in;
+}
+
+.funbusi_contact {
+  width: 87vw;
+  margin: 0 auto;
+  margin-bottom: 28vh;
+}
+
+.funbusi_contact>div {
+  position: relative;
+}
+
+.submit_btn {
+  margin: 0 auto;
+  background-color: #fcab2f;
+  color: white;
+  display: block;
+  position: relative;
+}
+
+.funbusi_linkbar {
+  background-color: #fcab2f;
+}
+
+.funbusi_linkbar p {
+  padding: 1em 0 1em 2em;
+  display: inline-block;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.funbusi_cards_row {
+  flex-direction: column;
+  text-align: center;
+}
+
+.return {
+  position: fixed;
+  right: 2%;
+  bottom: 4.6%;
+  width: 48px;
+  height: 48px;
+  background: url(../images/chevron-upwards-arrow.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+
+  .funbusi_header img {
+    margin: 18px 15px;
+  }
+
+  .funbusi_contact {
+    width: 56vw;
+  }
+
+  .funbusi_nav_btn {
+    display: inline;
+  }
+
+  .funbusi_menu_drop {
+    display: none;
+  }
+
+  .funbusi_subtitle {
+    line-height: 2.5em;
+    width: 36%;
+    margin: 2.7% auto 5%;
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(177, 175, 175);
+    border-bottom-style: double;
+    position: relative;
+  }
+
+  .banner-text-info {
+    margin: 25vh 0 0 18vw;
+    width: 28%;
+  }
+
+  .banner-text-info h1 {
+    font-size: 5em;
+    word-spacing: 0.3em;
+    text-align: left;
+    line-height: 1.4em;
+  }
+
+  .funbusi_cards_row {
+    flex-direction: row;
+  }
+
+  .funbusi_card_container p {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+  }
+
+  .funbusi_card:hover+p {
+    opacity: 1;
+  }
+
+  .funbusi_linkbar p {
+    padding: 0.2em 0 0.2em 2em;
+    display: inline-block;
+    line-height: 3em;
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 768px) {
+  .funbusi_card_container {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.333333%;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 100%;
+  }
+}
